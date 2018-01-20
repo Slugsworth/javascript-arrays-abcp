@@ -7,7 +7,6 @@ arraytwo = [two, ...array]
 
 
 function destructiveAddElementToBeginningOfArray(one, two){
-  arrayone = [one]
-  arrayone.unshift(two)
-  return arrayone;
+  one.unshift(two)
+  return one;
 }
