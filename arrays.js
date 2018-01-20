@@ -22,5 +22,5 @@ function destructivelyAddElementToEndOfArray(one, two){
 }
 
 function accessElementInArray(array, number){
-  
+  return array[number];
 }
