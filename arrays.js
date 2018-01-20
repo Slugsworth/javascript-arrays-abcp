@@ -16,5 +16,8 @@ arraytwo = [...one,two]
   return arraytwo;
 }
 
-
+function destructiveAddElementToEndOfArray(one, two){
+ one.push(two)
+ return one;
+}
 
