@@ -20,3 +20,7 @@ function destructivelyAddElementToEndOfArray(one, two){
  one.push(two)
  return one;
 }
+
+function accessElementInArray(){
+  var array = []
+}
