@@ -6,7 +6,7 @@ arraytwo = [two, ...one]
 }
 
 
-function destructivlyAddElementToBeginningOfArray(one, two){
+function destructivelyAddElementToBeginningOfArray(one, two){
  one.unshift(two)
  return one;
 }
@@ -16,7 +16,7 @@ arraytwo = [...one,two]
   return arraytwo;
 }
 
-function destructiveAddElementToEndOfArray(one, two){
+function destructivelyAddElementToEndOfArray(one, two){
  one.push(two)
  return one;
 }
